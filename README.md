@@ -1,6 +1,6 @@
 ## Hi there 👋
 
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=hodzilla51&layout=compact)](https://github.com/hodzilla51/github-readme-stats-custom)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=hodzilla51&layout=compact&count_private=true)](https://github.com/hodzilla51/github-readme-stats-custom)
 
 
 <!--

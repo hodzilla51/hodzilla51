@@ -2,6 +2,8 @@
 
 [![Top Langs](https://github-readme-stats-custom-ten.vercel.app/api/top-langs/?username=hodzilla51&layout=compact&count_private=true)](https://github.com/hodzilla51/github-readme-stats-custom)
 
+![Anurag's GitHub stats](https://github-readme-stats-custom-ten.vercel.app/api?username=hodzilla51&count_private=true)
+
 
 <!--
 **hodzilla51/hodzilla51** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.

@@ -5,6 +5,28 @@
 
 ![Top Langs](https://github-readme-stats-custom-ten.vercel.app/api/top-langs/?username=hodzilla51&layout=compact)
 
+## Love
+Next.js
+Firebase
+Docker
+
+## Like
+React
+Go
+Postgres
+AWS
+
+## Able
+PHP
+Cassandra
+Keycloak
+
+## Practicing
+C#(Unity)
+Flutter
+
+
+
 <!--
 **hodzilla51/hodzilla51** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 

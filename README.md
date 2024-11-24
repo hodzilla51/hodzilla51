@@ -13,12 +13,15 @@ Docker
 ## Like
 React
 Go
-Postgres
+PostgreSQL
 AWS
 
 ## Able
 PHP
+Java
+SpringBoot
 Cassandra
+MySQL
 Keycloak
 
 ## Practicing

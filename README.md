@@ -7,14 +7,14 @@
 
 ## Love
 Next.js
-Firebase
-Docker
+Expo
 
 ## Like
 React
 Go
 PostgreSQL
 AWS
+Firebase
 
 ## Able
 PHP
@@ -23,6 +23,9 @@ SpringBoot
 Cassandra
 MySQL
 Keycloak
+Docker
+Vue
+Nuxt.js
 
 ## Practicing
 C#(Unity)

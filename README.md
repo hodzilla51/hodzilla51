@@ -98,24 +98,29 @@ A social platform for recording and comparing circuit-driving results across cir
 
 ```mermaid
 flowchart LR
-    ST[❄️ Sutututu<br/>web / backend / architecture]
-    HJ[🟡 Hojiro<br/>SEO / operations]
-    KD[🟢 Kuruma DNA<br/>content platform]
-    KO[🟢 Kokaji Detective Office<br/>real-world business]
-    MI[🧪 MineSIer<br/>programmable systems]
-    SK[🧪 SKALE<br/>knowledge systems]
+    subgraph P[Media / Product / Business]
+        direction LR
+        HJ[🟡 Hojiro<br/>media / SEO / operations]
+        ST[❄️ Sutututu<br/>web service / backend / architecture]
+        KD[🟢 Kuruma DNA<br/>content platform]
+        KO[🟢 Kokaji Detective Office<br/>business / acquisition / operations]
 
-    ST --> HJ
-    HJ --> KD
-    HJ --> KO
-    ST --> MI
-    ST --> SK
+        HJ --> KD
+        ST --> KD
+        KD --> KO
+    end
+
+    subgraph X[Separate branches]
+        direction TB
+        MI[🧪 MineSIer<br/>programmable systems]
+        SK[🧪 SKALE<br/>knowledge systems]
+    end
 ```
 
-作る対象が、コード単体から「使われ、運用されるプロダクトや事業」へ少しずつ広がっています。
+この系統では、ほおじろ通信が一番古いです。SutututuでWebサービスの設計や実装をかなりやって、その両方で得たものがKDNAに入っています。KKJDはさらにその延長線上。MineSIerとSKALEは、そこから派生したというより完全に別の枝です。
 
 <details><summary>English</summary><br>
-Over time, the things I build have expanded from software itself toward products and businesses that are actually used, operated, measured, and improved.
+Hojiro is the oldest project in the main line. Sutututu added a lot of hands-on web-service and backend work, and Kuruma DNA grew out of both of those experiences. Kokaji Detective Office sits further down that same line. MineSIer and SKALE are separate branches rather than descendants of it.
 </details>
 
 ## 🛠 技術・関心領域 / Tech & Interests

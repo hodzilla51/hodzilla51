@@ -1,4 +1,10 @@
+<!-- If you're reading the source: hello. Scope creep lives here. -->
+
 # Hodzilla51 👋
+
+<p align="center">
+  <img src="./assets/control-room.svg" alt="Hodzilla51 Control Room" width="100%" />
+</p>
 
 **Product Manager / Software Engineer**
 
@@ -14,16 +20,9 @@ My projects range from web and content platforms to real-world businesses and pr
 
 </details>
 
-```text
-HODZILLA51 // SYSTEM STATUS
-
-ROLE        Product Manager / Software Engineer
-MODE        Build → Ship → Measure → Iterate
-INTERESTS   Products / Web / Automation / Systems / Weird Experiments
-STATUS      Still building.
-```
-
 `🟢 Active`　`🧪 Experimental`　`🟡 Maintenance`　`❄️ Paused / Frozen`
+
+> **基本方針:** 企画だけで終わらせない。コードだけでも終わらせない。公開して、使われ方を見る。
 
 ## 🚀 現在のプロジェクト / Active Projects
 
@@ -97,20 +96,22 @@ Projects that are no longer under active development, kept as a record of techni
 A social platform for recording and comparing circuit-driving results across circuits, layouts, and vehicles. During development I repeatedly redesigned the architecture, experimenting with stacks ranging from React / Go / Cassandra / Keycloak / Docker to Next.js / Node.js / PostgreSQL. The project became an important lesson in designing not only software, but products that can realistically be operated and maintained.
 </details>
 
-## 🧭 Project Timeline
+## 🗺️ Project Map
 
-```text
-Sutututu
-   │  web services / backend / architecture
-   ▼
-Personal media & product experiments
-   │  SEO / operations / real users
-   ├──────────────► MineSIer ──► programmable systems / virtual networks
-   │
-   ├──────────────► SKALE ─────► knowledge & reasoning systems
-   │
-   └──────────────► Kuruma DNA / Hojiro / Kokaji Detective Office
-                    products / content / business / automation
+```mermaid
+flowchart LR
+    ST[❄️ Sutututu<br/>web / backend / architecture]
+    HJ[🟡 Hojiro<br/>SEO / operations]
+    KD[🟢 Kuruma DNA<br/>content platform]
+    KO[🟢 Kokaji Detective Office<br/>real-world business]
+    MI[🧪 MineSIer<br/>programmable systems]
+    SK[🧪 SKALE<br/>knowledge systems]
+
+    ST --> HJ
+    HJ --> KD
+    HJ --> KO
+    ST --> MI
+    ST --> SK
 ```
 
 作る対象が、コード単体から「使われ、運用されるプロダクトや事業」へ少しずつ広がっています。
@@ -135,11 +136,37 @@ Over time, the things I build have expanded from software itself toward products
 I'm less interested in collecting technologies than in figuring out how to combine them to build something useful — or occasionally something unnecessarily weird.
 </details>
 
-## 📊 GitHub
+<details>
+<summary><strong>🕹️ Debug console</strong></summary>
+<br>
+
+```text
+$ ./hodzilla status
+role            Product Manager / Software Engineer
+project_count   suspiciously high
+scope_creep     detected
+response        creating another repository
+build_state     green enough
+
+$ ./hodzilla philosophy
+build → ship → observe → improve → accidentally invent another project
+```
+
+</details>
+
+## 📡 Telemetry
 
 ![GitHub stats](https://github-readme-stats-custom-ten.vercel.app/api?username=hodzilla51&count_private=true)
 
 ![Top Langs](https://github-readme-stats-custom-ten.vercel.app/api/top-langs/?username=hodzilla51&layout=compact)
+
+### 🐍 Grass collection subsystem
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/hodzilla51/hodzilla51/output/github-contribution-grid-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/hodzilla51/hodzilla51/output/github-contribution-grid-snake.svg" />
+  <img alt="GitHub contribution snake" src="https://raw.githubusercontent.com/hodzilla51/hodzilla51/output/github-contribution-grid-snake.svg" />
+</picture>
 
 ---
 

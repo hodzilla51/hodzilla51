@@ -36,62 +36,100 @@ An automotive media platform focused on model lineage and engineering ideas. I w
 
 ### 🟡 [ほおじろ通信 / Hojiro](https://hojiro.tokyo/)
 
-バイク・ガジェット・キャンプなどを扱う個人メディア。長期運営を通して、検索需要の発見、記事設計、SEO、サイト改善を実践してきたプロジェクトです。
+バイク・ガジェット・キャンプなどを扱う個人メディア。かなり前から運営していて、検索需要の見つけ方や記事設計、SEO、サイト改善はだいたいここで覚えました。
 
 **Areas:** WordPress / Content Strategy / SEO / Media Operations
 
 <details><summary>English</summary><br>
-A long-running personal media site covering motorcycles, gadgets, camping, and related topics. It has served as a practical environment for learning search demand, content design, SEO, and continuous site improvement.
+A long-running personal media site covering motorcycles, gadgets, camping, and related topics. Most of what I know about search demand, content design, SEO, and running a media site started here.
 </details>
 
 ### 🟢 [小鍛治探偵事務所 / Kokaji Detective Office](https://kkjd.tokyo/)
 
-自分で立ち上げた調査事業。サービス企画だけでなく、Webサイト、相談・受注導線、SEO/MEO、広告、運用フローまで構築し、実際の需要を検証しています。
+自分で立ち上げた調査事業。サイトを作るだけではなく、相談・受注の流れ、SEO/MEO、広告、案件の運用まで含めて実際に回しています。
 
 **Areas:** Product / Business Design / Web Development / SEO & MEO / Operations
 
 <details><summary>English</summary><br>
-A real-world investigation business I launched as a product and business experiment. I design not only the service itself, but also its website, acquisition funnel, SEO/MEO, advertising, and operational workflow.
+An investigation business I started myself. The work goes beyond the website: inquiry flow, acquisition, SEO/MEO, ads, and day-to-day operations are all part of the project.
 </details>
+
+## 🧪 Experiments / Side quests
+
+本筋とは別に、気になったものを試している枠です。完成するものもあれば、途中で満足して止まるものもあります。
 
 ### 🧪 [MineSIer](https://github.com/hodzilla51/minesier)
 
-Minecraft内に、JavaScriptでプログラムできるコンピュータ、ロボット、ストレージ、ネットワークを構築する実験的Mod。Mozilla Rhinoによるサンドボックス実行環境、プログラマブルTurtle、仮想NIC、L2通信、学習スイッチ、IPv4風パケット、暗号APIなどを実装しています。
+Minecraft内に、JavaScriptでプログラムできるコンピュータ、ロボット、ストレージ、ネットワークを作るFabric Mod。Mozilla Rhinoの実行環境、プログラマブルTurtle、仮想NIC、L2通信、学習スイッチ、IPv4風パケット、暗号APIなどを実装しています。
 
 **Tech:** Java / JavaScript / Fabric / Mozilla Rhino / Virtual Networking / Cryptography
 
 <details><summary>English</summary><br>
-An experimental Minecraft mod for building programmable systems in-game: computers, robots, portable storage, and networks controlled with JavaScript. It includes a sandboxed Rhino runtime, programmable turtles, virtual NICs, L2 networking, a learning switch, IPv4-inspired packets, and cryptographic APIs.
+An experimental Minecraft mod for building programmable computers, robots, storage, and networks in-game with JavaScript. It includes a Rhino runtime, programmable turtles, virtual NICs, L2 networking, a learning switch, IPv4-inspired packets, and cryptographic APIs.
 </details>
 
 ### 🧪 [SKALE](https://github.com/hodzilla51/skale)
 
-司法試験で要求される法的推論を、人間が限られた時間と記憶容量で実行できる形まで圧縮・構造化できるかを検証する研究プロジェクト。現在は初期設計・実験段階で、効果はまだ実証していません。
+司法試験で使う法的推論を、人間が限られた時間と記憶容量で実行できるサイズまで圧縮できるか試しているもの。まだ初期実験で、効くかどうかは分かっていません。
 
 **Areas:** Knowledge Compression / Legal Reasoning / Human-executable Systems / Evaluation Design
 
 <details><summary>English</summary><br>
-An experimental research project exploring whether legal reasoning for Japanese legal examinations can be compressed into a small, human-executable system while preserving required performance. It is still in early experimental design; no effectiveness claim yet.
+An experiment in compressing legal reasoning for Japanese legal exams into something a human can actually remember and execute under exam constraints. Still early; no claim that it works yet.
+</details>
+
+### 🧪 E.L.I.N.A.
+
+小鍛治探偵事務所の案件で、「次に何をするか」を1つずつ出すための案件進行ナビゲーション。問い合わせ内容から次のObjectiveを組み立て、法定手続が必要な場面ではDB側の制約でも止めるようにしています。
+
+まだ実運用前の実験段階ですが、案件一覧、Quest Map、再計画、操作ログなどは動くところまで作っています。
+
+**Tech:** Next.js / TypeScript / PostgreSQL / LLM agents / Constraint-driven design
+
+<details><summary>English</summary><br>
+An experimental case-navigation system for Kokaji Detective Office. It turns an intake into the next concrete objective, while database constraints enforce parts of the operating rules that should not depend on an AI behaving correctly.
+</details>
+
+### 🧪 Costco Export
+
+友人が運営するコストコ再販店向けに作った業務ツール。公開されている商品ページから必要な商品情報を取得し、ExcelやCSV、商品画像をまとめて出力できるようにしました。実際に店舗の業務で使われていました。
+
+**Tech:** Next.js / TypeScript / Puppeteer / Cheerio / ExcelJS / Sharp
+
+<details><summary>English</summary><br>
+An internal tool I built for a friend's Costco resale shop. It collects product information from publicly available product pages and packages the data into Excel/CSV files together with product images. It was used in the shop's actual workflow.
+</details>
+
+### 🧪 660cc V6
+
+660ccのV6軽自動車を作れないか、という完全に趣味の個人研究。2ストローク / 4ストロークの可変サイクルまで含めて考えています。まだ車はありません。
+
+<details><summary>English</summary><br>
+A purely personal engineering thought experiment: a 660 cc V6 kei car, including the idea of a variable 2-stroke / 4-stroke cycle. There is, importantly, no actual car yet.
 </details>
 
 ## ❄️ 凍結・過去のプロジェクト / Paused & Archived
 
-現在は積極的に開発していませんが、技術的な試行錯誤と興味の変遷を残すためのプロジェクトです。
-
-<details><summary>English</summary><br>
-Projects that are no longer under active development, kept as a record of technical experiments and how my interests have evolved.
-</details>
+今は積極的に触っていないもの。消すほどでもないので、そのまま残しています。
 
 ### ❄️ Sutututu
 
 サーキット走行の記録を投稿し、サーキット・レイアウト・車種などで絞り込んで比較するSNS。二輪・四輪を対象に、ユーザー認証、記録投稿、検索、リザルト表示などを開発しました。
 
-開発の途中で複数回アーキテクチャを見直し、React / Go / Cassandra / Keycloak / Docker を用いた構成から、Next.js / Node.js / PostgreSQL を中心とする構成まで試行しました。コードを書くことだけでなく、運用コストを含めてプロダクトを設計する重要性を学んだプロジェクトです。設計資料・コード抜粋は[技術ポートフォリオ](https://github.com/hodzilla51/portfolio)に残しています。
+開発中に何度も構成を変えていて、React / Go / Cassandra / Keycloak / Docker の構成から、Next.js / Node.js / PostgreSQL中心の構成まで試しています。設計資料・コード抜粋は[技術ポートフォリオ](https://github.com/hodzilla51/portfolio)に残しています。
 
 **Tech:** React / Next.js / Go / Node.js / PostgreSQL / Cassandra / Keycloak / Docker
 
 <details><summary>English</summary><br>
-A social platform for recording and comparing circuit-driving results across circuits, layouts, and vehicles. During development I repeatedly redesigned the architecture, experimenting with stacks ranging from React / Go / Cassandra / Keycloak / Docker to Next.js / Node.js / PostgreSQL. The project became an important lesson in designing not only software, but products that can realistically be operated and maintained.
+A social platform for recording and comparing circuit-driving results across circuits, layouts, and vehicles. I rebuilt the architecture several times, from React / Go / Cassandra / Keycloak / Docker to a Next.js / Node.js / PostgreSQL stack.
+</details>
+
+### ❄️ kagu.monster
+
+家具に特化した情報サイト。Next.jsで作って公開までしましたが、現在は凍結中です。
+
+<details><summary>English</summary><br>
+A furniture-focused information site built with Next.js. It made it to release, but is currently frozen.
 </details>
 
 ## 🗺️ Project Map
@@ -104,23 +142,31 @@ flowchart LR
         ST[❄️ Sutututu<br/>web service / backend / architecture]
         KD[🟢 Kuruma DNA<br/>content platform]
         KO[🟢 Kokaji Detective Office<br/>business / acquisition / operations]
+        EL[🧪 E.L.I.N.A.<br/>case navigation]
 
         HJ --> KD
         ST --> KD
         KD --> KO
+        KO --> EL
     end
 
     subgraph X[Separate branches]
         direction TB
         MI[🧪 MineSIer<br/>programmable systems]
         SK[🧪 SKALE<br/>knowledge systems]
+        CV[🧪 660cc V6<br/>engineering side quest]
+    end
+
+    subgraph T[Small tools / one-offs]
+        CE[🧪 Costco Export<br/>shop workflow tool]
+        KG[❄️ kagu.monster<br/>furniture media]
     end
 ```
 
-この系統では、ほおじろ通信が一番古いです。SutututuでWebサービスの設計や実装をかなりやって、その両方で得たものがKDNAに入っています。KKJDはさらにその延長線上。MineSIerとSKALEは、そこから派生したというより完全に別の枝です。
+この系統では、ほおじろ通信が一番古いです。SutututuでWebサービスの設計や実装をかなりやって、その両方で得たものがKDNAに入っています。KKJDはさらにその延長線上で、E.L.I.N.A.はKKJDの中から生えた実験です。MineSIer、SKALE、660cc V6はほぼ別世界です。
 
 <details><summary>English</summary><br>
-Hojiro is the oldest project in the main line. Sutututu added a lot of hands-on web-service and backend work, and Kuruma DNA grew out of both of those experiences. Kokaji Detective Office sits further down that same line. MineSIer and SKALE are separate branches rather than descendants of it.
+Hojiro is the oldest project in the main line. Sutututu added a lot of hands-on web-service and backend work, and Kuruma DNA grew out of both. Kokaji Detective Office continues that line, with E.L.I.N.A. branching from it. MineSIer, SKALE, and the 660 cc V6 idea live in almost entirely different worlds.
 </details>
 
 ## 🛠 技術・関心領域 / Tech & Interests
@@ -131,7 +177,7 @@ Hojiro is the oldest project in the main line. Sutututu added a lot of hands-on 
 | Backend & Data | Go, Node.js, PostgreSQL, MySQL |
 | Systems | Java, Docker, Linux, Virtual Networking |
 | Product | Requirements, Information Architecture, SEO, Analytics, Operations |
-| Experiments | AI Automation, Knowledge Systems, Minecraft Modding |
+| Experiments | AI Automation, Knowledge Systems, Minecraft Modding, Vehicle Engineering |
 
 技術そのものよりも、**「何を作るために、どう組み合わせるか」**に興味があります。
 

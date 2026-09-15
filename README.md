@@ -132,12 +132,16 @@ A purely personal engineering thought experiment: a 660 cc V6 kei car, including
 
 サーキット走行の記録を投稿し、サーキット・レイアウト・車種などで絞り込んで比較するSNS。二輪・四輪を対象に、ユーザー認証、記録投稿、検索、リザルト表示などを開発しました。
 
+Web版だけでなく、**Expo / React NativeでiOSアプリも作り、公開まで行いました。** モバイル版ではFirebaseの認証・Firestore・Crashlyticsなども使っています。
+
 開発中に何度も構成を変えていて、React / Go / Cassandra / Keycloak / Docker の構成から、Next.js / Node.js / PostgreSQL中心の構成まで試しています。設計資料・コード抜粋は[技術ポートフォリオ](https://github.com/hodzilla51/portfolio)に残しています。
 
-**Tech:** React / Next.js / Go / Node.js / PostgreSQL / Cassandra / Keycloak / Docker
+**Tech:** React / Next.js / Expo / React Native / Go / Node.js / PostgreSQL / Cassandra / Firebase / Keycloak / Docker
 
 <details><summary>English</summary><br>
-A social platform for recording and comparing circuit-driving results across circuits, layouts, and vehicles. I rebuilt the architecture several times, from React / Go / Cassandra / Keycloak / Docker to a Next.js / Node.js / PostgreSQL stack.
+A social platform for recording and comparing circuit-driving results across circuits, layouts, and vehicles. Alongside the web service, I also built and released an iOS app with Expo / React Native, using Firebase for authentication, Firestore, and Crashlytics.
+
+I rebuilt the architecture several times, from React / Go / Cassandra / Keycloak / Docker to a Next.js / Node.js / PostgreSQL stack.
 </details>
 
 ### ❄️ kagu.monster
@@ -155,7 +159,7 @@ flowchart LR
     subgraph P[Media / Product / Business]
         direction LR
         HJ[🟡 Hojiro<br/>media / SEO / operations]
-        ST[❄️ Sutututu<br/>web service / backend / architecture]
+        ST[❄️ Sutututu<br/>web + iOS / backend / architecture]
         KD[🟢 Kuruma DNA<br/>content platform]
         KO[🟢 Kokaji Detective Office<br/>business / acquisition / operations]
         EL[🧪 E.L.I.N.A.<br/>case navigation]
@@ -190,6 +194,7 @@ Hojiro is the oldest project in the main line. Sutututu added a lot of hands-on 
 | Area | Technologies / Topics |
 | --- | --- |
 | Web | TypeScript, React, Next.js, WordPress |
+| Mobile | Expo, React Native, Firebase |
 | Backend & Data | Go, Node.js, PostgreSQL, MySQL |
 | Systems | Java, Docker, Linux, Virtual Networking |
 | Product | Requirements, Information Architecture, SEO, Analytics, Operations |

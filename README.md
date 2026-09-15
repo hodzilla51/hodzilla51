@@ -8,21 +8,19 @@
 
 **Product Manager / Software Engineer**
 
-曖昧なアイデアを整理し、要件・設計・実装から、公開後の運用や改善まで自分で手を動かしています。  
-Web、コンテンツ、事業、ゲーム内コンピュータまで、興味を持ったものを実際に作って確かめるのが好きです。
+個人では、気になったものを作って公開しています。反応があれば続けるし、なければ止めることもあります。  
+Webメディア、調査事業、Minecraft内のコンピュータなど、ジャンルはあまり決めずにやっています。
 
 <details>
 <summary><strong>English</strong></summary>
 <br>
 
-I turn ambiguous ideas into working products — from requirements and architecture to implementation, operation, and iteration.  
-My projects range from web and content platforms to real-world businesses and programmable computers inside Minecraft.
+I build things that catch my interest and put them out in the world. If people use them, I keep going; if not, I sometimes stop.  
+That has included web media, an investigation business, and programmable computers inside Minecraft.
 
 </details>
 
 `🟢 Active`　`🧪 Experimental`　`🟡 Maintenance`　`❄️ Paused / Frozen`
-
-> **基本方針:** 企画だけで終わらせない。コードだけでも終わらせない。公開して、使われ方を見る。
 
 ## 🚀 現在のプロジェクト / Active Projects
 

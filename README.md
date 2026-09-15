@@ -79,15 +79,31 @@ An experiment in compressing legal reasoning for Japanese legal exams into somet
 </details>
 
 ### 🧪 E.L.I.N.A.
+**Event-Linked Intelligence & Navigation Agent**
 
-小鍛治探偵事務所の案件で、「次に何をするか」を1つずつ出すための案件進行ナビゲーション。問い合わせ内容から次のObjectiveを組み立て、法定手続が必要な場面ではDB側の制約でも止めるようにしています。
+探偵案件を「管理する」のではなく、**一件ずつ攻略するためのナビゲーションシステム**。
 
-まだ実運用前の実験段階ですが、案件一覧、Quest Map、再計画、操作ログなどは動くところまで作っています。
+依頼内容と現在地から、次にやるべきことを `NEXT OBJECTIVE` として1つだけ提示します。Objectiveの中には通過すべき `Waypoint` があり、法的・業務的に進めない場所には `Gate` がある。新しい情報が入れば `Quest Map` を書き換え、次の一手を組み直します。
+
+```text
+Where are we?
+What do we do next?
+How do we do it?
+When is it done?
+```
+
+案件をきれいに並べるためのCRMではなく、この4つを毎回決めるためのものです。
+
+現在は、問い合わせからの状態構築、複数段の推論、Quest Map、NEXT OBJECTIVE、法定手続のGate、再計画、行動ログまで動くところまで作っています。
 
 **Tech:** Next.js / TypeScript / PostgreSQL / LLM agents / Constraint-driven design
 
 <details><summary>English</summary><br>
-An experimental case-navigation system for Kokaji Detective Office. It turns an intake into the next concrete objective, while database constraints enforce parts of the operating rules that should not depend on an AI behaving correctly.
+E.L.I.N.A. is not a case-management system. It is a navigation system for **beating one investigation at a time**.
+
+It reads the current state of a case and produces exactly one `NEXT OBJECTIVE`. Objectives contain `Waypoints`; legal and operational constraints become `Gates`; new information can reshape the `Quest Map` and trigger a replan.
+
+The point is not to keep cases neatly organized. It is to answer four questions over and over: `Where are we? What do we do next? How do we do it? When is it done?`
 </details>
 
 ### 🧪 Costco Export

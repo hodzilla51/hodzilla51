@@ -1,72 +1,146 @@
-# Hi, I'm hodzilla51 👋
+# Hodzilla51 👋
 
 **Product Manager / Software Engineer**
 
-曖昧なアイデアを整理して、仕様・コード・動くプロダクトにする。
-公開後の集客や運用改善まで、自分で手を動かしています。
+曖昧なアイデアを整理し、要件・設計・実装から、公開後の運用や改善まで自分で手を動かしています。  
+Web、コンテンツ、事業、ゲーム内コンピュータまで、興味を持ったものを実際に作って確かめるのが好きです。
 
-2026年7月からプロダクトマネージャー。個人では、Webメディア、調査事業、Mod開発や研究実験に取り組んでいます。
-AIを開発・調査・制作の工程に組み込み、少人数で継続して運用できる仕組みを作ることに関心があります。
+<details>
+<summary><strong>English</strong></summary>
+<br>
 
-*I build and operate products, from problem discovery and software development to distribution and iteration.*
+I turn ambiguous ideas into working products — from requirements and architecture to implementation, operation, and iteration.  
+My projects range from web and content platforms to real-world businesses and programmable computers inside Minecraft.
 
-## Products & projects
+</details>
 
-### [クルマのDNA / Kuruma DNA](https://kuruma-dna.com/)
+```text
+HODZILLA51 // SYSTEM STATUS
 
-自動車の系譜・設計思想・時代背景をつなぐ、個人運営のメディア。
-Next.jsとヘッドレスWordPressで構築し、情報設計、記事間の回遊、SEO、コンテンツの運用・改善に取り組んでいます。
+ROLE        Product Manager / Software Engineer
+MODE        Build → Ship → Measure → Iterate
+INTERESTS   Products / Web / Automation / Systems / Weird Experiments
+STATUS      Still building.
+```
 
-### [ほおじろ通信](https://hojiro.tokyo/)
+`🟢 Active`　`🧪 Experimental`　`🟡 Maintenance`　`❄️ Paused / Frozen`
 
-バイク・ガジェット・キャンプを扱う個人メディア。
-企画、執筆、サイト運営、検索流入の改善までを経験してきた、メディアづくりの原点です。
+## 🚀 現在のプロジェクト / Active Projects
 
-### [小鍛治探偵事務所](https://kkjd.tokyo/)
+### 🟢 [クルマのDNA / Kuruma DNA](https://kuruma-dna.com/)
 
-町田を拠点とする調査事業。Webサイトの企画・開発から、相談導線や集客の設計まで取り組んでいます。
-現在は、サービス提供と運用の仕組みを検証している段階です。
+自動車のモデルや世代のつながり、設計思想をたどるWebメディア。企画・サイト開発・コンテンツ設計・SEO・運用改善まで行っています。Next.jsとWordPressを組み合わせ、車種・世代を横断して読み進められる情報構造や、大規模なコンテンツ運用の改善・自動化にも取り組んでいます。
 
-### [MineSIer](https://github.com/hodzilla51/minesier)
+**Areas:** Next.js / TypeScript / WordPress / SEO / Information Architecture
 
-Minecraft内でJavaScriptを使い、コンピューター・ロボット・ネットワークを組み立てるFabric Mod。
-Java / Mozilla Rhinoによるスクリプト実行環境、命令数制限、仮想ネットワーク、ストレージや周辺機器との連携を実装しています。実験的な開発段階です。
+<details><summary>English</summary><br>
+An automotive media platform focused on model lineage and engineering ideas. I work across product planning, development, content architecture, SEO, and operation, including improvements and automation for large-scale content management.
+</details>
 
-### [SKALE](https://github.com/hodzilla51/skale)
+### 🟡 [ほおじろ通信 / Hojiro](https://hojiro.tokyo/)
 
-法律の知識と推論手順を、人間が限られた時間で使える形へ圧縮する研究実験。
-設計・分析資料を公開し、モデルの構築・学習・実行にかかる時間や、未見問題への対応を検証しています。効果は未実証です。
+バイク・ガジェット・キャンプなどを扱う個人メディア。長期運営を通して、検索需要の発見、記事設計、SEO、サイト改善を実践してきたプロジェクトです。
 
-過去のSutututuの設計資料・Goコード抜粋は、[技術ポートフォリオ](https://github.com/hodzilla51/portfolio)にまとめています。
+**Areas:** WordPress / Content Strategy / SEO / Media Operations
 
-## How I work
+<details><summary>English</summary><br>
+A long-running personal media site covering motorcycles, gadgets, camping, and related topics. It has served as a practical environment for learning search demand, content design, SEO, and continuous site improvement.
+</details>
 
-- **課題を整理する** — 誰の何を解決するのか、制約と優先順位を言葉にする。
-- **仕組みに落とす** — 要件、データ構造、画面、運用手順をつなげて実装する。
-- **使われ方を見る** — 検索流入、回遊、問い合わせなどから、次に直す場所を考える。
-- **運用を積み上げる** — 繰り返す作業を自動化し、知識やコンテンツが残る形にする。
+### 🟢 [小鍛治探偵事務所 / Kokaji Detective Office](https://kkjd.tokyo/)
 
-## Technology
+自分で立ち上げた調査事業。サービス企画だけでなく、Webサイト、相談・受注導線、SEO/MEO、広告、運用フローまで構築し、実際の需要を検証しています。
 
-プロジェクトで使用してきた技術・実装領域です。詳細は各リポジトリに記載しています。
+**Areas:** Product / Business Design / Web Development / SEO & MEO / Operations
 
-| 領域 | 技術・経験 |
+<details><summary>English</summary><br>
+A real-world investigation business I launched as a product and business experiment. I design not only the service itself, but also its website, acquisition funnel, SEO/MEO, advertising, and operational workflow.
+</details>
+
+### 🧪 [MineSIer](https://github.com/hodzilla51/minesier)
+
+Minecraft内に、JavaScriptでプログラムできるコンピュータ、ロボット、ストレージ、ネットワークを構築する実験的Mod。Mozilla Rhinoによるサンドボックス実行環境、プログラマブルTurtle、仮想NIC、L2通信、学習スイッチ、IPv4風パケット、暗号APIなどを実装しています。
+
+**Tech:** Java / JavaScript / Fabric / Mozilla Rhino / Virtual Networking / Cryptography
+
+<details><summary>English</summary><br>
+An experimental Minecraft mod for building programmable systems in-game: computers, robots, portable storage, and networks controlled with JavaScript. It includes a sandboxed Rhino runtime, programmable turtles, virtual NICs, L2 networking, a learning switch, IPv4-inspired packets, and cryptographic APIs.
+</details>
+
+### 🧪 [SKALE](https://github.com/hodzilla51/skale)
+
+司法試験で要求される法的推論を、人間が限られた時間と記憶容量で実行できる形まで圧縮・構造化できるかを検証する研究プロジェクト。現在は初期設計・実験段階で、効果はまだ実証していません。
+
+**Areas:** Knowledge Compression / Legal Reasoning / Human-executable Systems / Evaluation Design
+
+<details><summary>English</summary><br>
+An experimental research project exploring whether legal reasoning for Japanese legal examinations can be compressed into a small, human-executable system while preserving required performance. It is still in early experimental design; no effectiveness claim yet.
+</details>
+
+## ❄️ 凍結・過去のプロジェクト / Paused & Archived
+
+現在は積極的に開発していませんが、技術的な試行錯誤と興味の変遷を残すためのプロジェクトです。
+
+<details><summary>English</summary><br>
+Projects that are no longer under active development, kept as a record of technical experiments and how my interests have evolved.
+</details>
+
+### ❄️ Sutututu
+
+サーキット走行の記録を投稿し、サーキット・レイアウト・車種などで絞り込んで比較するSNS。二輪・四輪を対象に、ユーザー認証、記録投稿、検索、リザルト表示などを開発しました。
+
+開発の途中で複数回アーキテクチャを見直し、React / Go / Cassandra / Keycloak / Docker を用いた構成から、Next.js / Node.js / PostgreSQL を中心とする構成まで試行しました。コードを書くことだけでなく、運用コストを含めてプロダクトを設計する重要性を学んだプロジェクトです。設計資料・コード抜粋は[技術ポートフォリオ](https://github.com/hodzilla51/portfolio)に残しています。
+
+**Tech:** React / Next.js / Go / Node.js / PostgreSQL / Cassandra / Keycloak / Docker
+
+<details><summary>English</summary><br>
+A social platform for recording and comparing circuit-driving results across circuits, layouts, and vehicles. During development I repeatedly redesigned the architecture, experimenting with stacks ranging from React / Go / Cassandra / Keycloak / Docker to Next.js / Node.js / PostgreSQL. The project became an important lesson in designing not only software, but products that can realistically be operated and maintained.
+</details>
+
+## 🧭 Project Timeline
+
+```text
+Sutututu
+   │  web services / backend / architecture
+   ▼
+Personal media & product experiments
+   │  SEO / operations / real users
+   ├──────────────► MineSIer ──► programmable systems / virtual networks
+   │
+   ├──────────────► SKALE ─────► knowledge & reasoning systems
+   │
+   └──────────────► Kuruma DNA / Hojiro / Kokaji Detective Office
+                    products / content / business / automation
+```
+
+作る対象が、コード単体から「使われ、運用されるプロダクトや事業」へ少しずつ広がっています。
+
+<details><summary>English</summary><br>
+Over time, the things I build have expanded from software itself toward products and businesses that are actually used, operated, measured, and improved.
+</details>
+
+## 🛠 技術・関心領域 / Tech & Interests
+
+| Area | Technologies / Topics |
 | --- | --- |
-| 言語 | TypeScript / JavaScript / Java / Go / PHP |
-| Web・アプリ | Next.js / React / Expo / Node.js |
-| CMS・データベース | WordPress / PostgreSQL / MySQL / Cassandra |
-| Mod開発・組込スクリプト | Fabric / Mozilla Rhino |
-| サンドボックス | Javaクラスへのアクセス制御 / インタプリタ実行 / 命令数制限 |
-| 仮想ネットワーク | 仮想NIC / L2フレーム / スイッチ / IPv4風パケット |
-| 暗号API | Java標準暗号APIを利用した暗号化・鍵交換・ハッシュ |
-| ビルド・テスト | Gradle / JUnit / Jest / React Testing Library |
-| ツール・インフラ | Git / GitHub Actions / Docker / Vercel / AWS / Firebase |
+| Web | TypeScript, React, Next.js, WordPress |
+| Backend & Data | Go, Node.js, PostgreSQL, MySQL |
+| Systems | Java, Docker, Linux, Virtual Networking |
+| Product | Requirements, Information Architecture, SEO, Analytics, Operations |
+| Experiments | AI Automation, Knowledge Systems, Minecraft Modding |
 
-## Beyond code
+技術そのものよりも、**「何を作るために、どう組み合わせるか」**に興味があります。
 
-車とバイク、音楽制作、ゲーム、フィジカルAI。
-仕組みを知ることと、自分で作って試すことが好きです。
+<details><summary>English</summary><br>
+I'm less interested in collecting technologies than in figuring out how to combine them to build something useful — or occasionally something unnecessarily weird.
+</details>
+
+## 📊 GitHub
+
+![GitHub stats](https://github-readme-stats-custom-ten.vercel.app/api?username=hodzilla51&count_private=true)
+
+![Top Langs](https://github-readme-stats-custom-ten.vercel.app/api/top-langs/?username=hodzilla51&layout=compact)
 
 ---
 
-*Updated: September 2026*
+> Build things. Ship them. See what happens.

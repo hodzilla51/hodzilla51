@@ -116,12 +116,30 @@ The point is not to keep cases neatly organized. It is to answer four questions 
 An internal tool I built for a friend's Costco resale shop. It collects product information from publicly available product pages and packages the data into Excel/CSV files together with product images. It was used in the shop's actual workflow.
 </details>
 
-### 🧪 660cc V6
+### 🧪 660cc Two-Stroke V6
 
-660ccのV6軽自動車を作れないか、という完全に趣味の個人研究。2ストローク / 4ストロークの可変サイクルまで含めて考えています。まだ車はありません。
+軽自動車規格の排気量上限に収まる **659.9cc・水冷60° V型6気筒2ストロークエンジン**を、いつか実機として製作するために進めている長期の個人プロジェクトです。
+
+単なる思考実験として終わらせるつもりはなく、最終的にはエンジンを実際に製作し、車両として成立させることを目標にしています。現時点では実機製作に必要な資金・製造環境がないため、今のうちからFusion 360によるパラメトリックCAD、クランクトレイン、慣性バランス、一次圧縮、ポートタイミング、掃気通路、潤滑、排気波動などの設計・解析を少しずつ進めています。
+
+現在の基本仕様は **659.9cc（110.0cc × 6） / φ54.1 × 47.9mm / 60°等間隔点火**。15,500〜16,500rpm付近を想定回転域とし、**250PS級のクランク軸出力を未検証の設計目標**としています。
+
+CAD上では掃気通路を含むクランクケース容積を実測し、実効一次圧縮比を1.27として算定。ポート期間・時間面積や慣性力・偶力も計算しており、現在は **1Dガス交換シミュレーションによる成立性検証**へ進む段階です。派生構想として、低負荷域を4ストローク、高負荷・高回転域を2ストロークとする可変サイクル機構も検討しています。
+
+**Areas:** Engine Design / Fusion 360 / Two-Stroke Gas Exchange / Kinematics & Balance / Exhaust Wave Dynamics / 1D Simulation
+
+📄 **[外部公開用技術資料 — 660cc 2ストロークV6エンジンの概念設計・成立性検討 (PDF)](./docs/660cc-v6-public.pdf)**
 
 <details><summary>English</summary><br>
-A purely personal engineering thought experiment: a 660 cc V6 kei car, including the idea of a variable 2-stroke / 4-stroke cycle. There is, importantly, no actual car yet.
+
+A long-term personal engineering project aimed at eventually **building a real 659.9 cc, liquid-cooled, 60° V6 two-stroke engine** within Japan's kei-car displacement limit.
+
+This is not intended to remain a thought experiment. The long-term goal is to manufacture the engine and make it work as part of an actual vehicle. I do not currently have the funding or manufacturing environment required for a physical build, so I am using the time now to advance the design, analysis, specifications, and validation plan step by step.
+
+The current baseline is 659.9 cc (110.0 cc/cylinder), 54.1 × 47.9 mm bore/stroke, and evenly spaced 60° firing intervals. The target operating range is approximately 15,500–16,500 rpm, with **250 PS-class crankshaft output as an unverified design target**, not a measured result.
+
+CAD-derived crankcase and transfer-passage volumes give an effective primary compression ratio of 1.27. Port timing/time-area and inertial balance have also been calculated, and the next major step is **1D gas-exchange simulation**. A separate extension of the project explores a variable 2-stroke / 4-stroke operating cycle.
+
 </details>
 
 ## ❄️ 凍結・過去のプロジェクト / Paused & Archived
@@ -174,7 +192,7 @@ flowchart LR
         direction TB
         MI[🧪 MineSIer<br/>programmable systems]
         SK[🧪 SKALE<br/>knowledge systems]
-        CV[🧪 660cc V6<br/>engineering side quest]
+        CV[🧪 660cc V6<br/>engine design / long-term build]
     end
 
     subgraph T[Small tools / one-offs]

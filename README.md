@@ -8,21 +8,52 @@
 
 **Product Manager / Software Engineer**
 
-個人では、気になったものを作って公開しています。反応があれば続けるし、なければ止めることもあります。  
-Webメディア、調査事業、Minecraft内のコンピュータなど、ジャンルはあまり決めずにやっています。
+現在の主力は、実車のサーキット走行を **計測 → 記録 → 比較 → 挑戦 → 成長** につなげるモータースポーツアプリ **[Sutututu](https://sutututu.net/)**。  
+企画・UX/UIデザイン・Web／モバイル開発・リリース・継続利用の設計・ユーザー獲得まで、一人で進めています。
+
+ほかにもWebメディア、調査事業、Minecraft内のコンピュータなど、気になったものを作って公開しています。実際の反応を見ながら、続けるもの、育てるものを選んでいます。
 
 <details>
 <summary><strong>English</strong></summary>
 <br>
 
-I build things that catch my interest and put them out in the world. If people use them, I keep going; if not, I sometimes stop.  
-That has included web media, an investigation business, and programmable computers inside Minecraft.
+My main project is **[Sutututu](https://sutututu.net/)**, a motorsport app connecting real circuit driving with **timing, records, comparison, new challenges, and progress**.  
+I work across product planning, UX/UI design, web and mobile development, releases, retention, and user acquisition as a solo builder.
+
+I also build and publish things that catch my interest, including web media, an investigation business, and programmable computers inside Minecraft. What people actually use helps me decide what to keep developing.
 
 </details>
 
 `🟢 Active`　`🧪 Experimental`　`🟡 Maintenance`　`❄️ Paused / Frozen`
 
 ## 🚀 現在のプロジェクト / Active Projects
+
+### 🟢 [Sutututu](https://sutututu.net/) — 主力プロジェクト / Main Project
+
+実車のサーキット走行を、**計測・記録・比較・次の挑戦**につなげるモータースポーツアプリ。自身の走行経験を起点に、プロダクト企画、UX/UIデザイン、Web・モバイル開発、リリース、運用、ユーザー獲得まで一貫して取り組んでいます。
+
+Web／iOSを公開・運用し、GPSラップ計測、走行記録の保存・共有、ランキングに加え、**v1.1.0「GHOST RACE」**を提供しています。Android対応も実装済みで、公開準備中です。
+
+目指しているのは、**「自分が走っていない間も、自分の記録は戦い続けている」体験**。サーキット走行の頻度を踏まえ、次の走行機会にも使いたくなる比較・競争・継続利用の仕組みを設計しています。App Store広告によるユーザー獲得も始めています。
+
+**開発状況（2026-10-27）：** アプリ内通貨 **REV**・UIテーマ・通知などを含むv1.1.1はTestFlight配布済み。Androidは実機検証・配布準備の段階です。
+
+**Role:** Product Strategy / UX & UI / Development / Retention / Acquisition  
+**Tech:** Expo / React Native / TypeScript / Next.js / Node.js / PostgreSQL / Firebase
+
+[公式サイト](https://sutututu.net/) · [App Store](https://apps.apple.com/jp/app/6743934576) · [取り組みと初期実装の資料](https://github.com/hodzilla51/portfolio)
+
+<details><summary>English</summary><br>
+
+My main project: a motorsport app that turns real circuit driving into **recorded progress, comparison, and the next challenge**. Drawing on my own circuit-driving experience, I work across product planning, UX/UI, web and mobile development, releases, operations, and user acquisition.
+
+The web service and iOS app are live, with GPS lap timing, saved and shared driving records, rankings, and **v1.1.0 “GHOST RACE.”** Android support has also been implemented and is being prepared for release.
+
+The product direction is to make each driver's records stay meaningful between track days: **your records keep competing even when you're not driving.** Current work focuses on meaningful comparison, returning for the next driving session, and user acquisition through App Store advertising.
+
+**Status as of 2026-10-27:** v1.1.1, including the **REV** in-app currency, UI themes, and notifications, has been distributed through TestFlight. Android is awaiting physical-device validation and distribution.
+
+</details>
 
 ### 🟢 [クルマのDNA / Kuruma DNA](https://kuruma-dna.com/)
 
@@ -146,22 +177,6 @@ CAD-derived crankcase and transfer-passage volumes give an effective primary com
 
 今は積極的に触っていないもの。消すほどでもないので、そのまま残しています。
 
-### ❄️ Sutututu
-
-サーキット走行の記録を投稿し、サーキット・レイアウト・車種などで絞り込んで比較するSNS。二輪・四輪を対象に、ユーザー認証、記録投稿、検索、リザルト表示などを開発しました。
-
-Web版だけでなく、**Expo / React NativeでiOSアプリも作り、公開まで行いました。** モバイル版ではFirebaseの認証・Firestore・Crashlyticsなども使っています。
-
-開発中に何度も構成を変えていて、React / Go / Cassandra / Keycloak / Docker の構成から、Next.js / Node.js / PostgreSQL中心の構成まで試しています。設計資料・コード抜粋は[技術ポートフォリオ](https://github.com/hodzilla51/portfolio)に残しています。
-
-**Tech:** React / Next.js / Expo / React Native / Go / Node.js / PostgreSQL / Cassandra / Firebase / Keycloak / Docker
-
-<details><summary>English</summary><br>
-A social platform for recording and comparing circuit-driving results across circuits, layouts, and vehicles. Alongside the web service, I also built and released an iOS app with Expo / React Native, using Firebase for authentication, Firestore, and Crashlytics.
-
-I rebuilt the architecture several times, from React / Go / Cassandra / Keycloak / Docker to a Next.js / Node.js / PostgreSQL stack.
-</details>
-
 ### ❄️ kagu.monster
 
 家具に特化した情報サイト。Next.jsで作って公開までしましたが、現在は凍結中です。
@@ -173,49 +188,50 @@ A furniture-focused information site built with Next.js. It made it to release, 
 ## 🗺️ Project Map
 
 ```mermaid
-flowchart LR
-    subgraph P[Media / Product / Business]
-        direction LR
-        HJ[🟡 Hojiro<br/>media / SEO / operations]
-        ST[❄️ Sutututu<br/>web + iOS / backend / architecture]
-        KD[🟢 Kuruma DNA<br/>content platform]
-        KO[🟢 Kokaji Detective Office<br/>business / acquisition / operations]
-        EL[🧪 E.L.I.N.A.<br/>case navigation]
+flowchart TD
+    subgraph P["Media / Product / Business"]
+        direction TB
+        ST["🟢 Sutututu — Main project"]
+        HJ["🟡 Hojiro — Media"]
+        KD["🟢 Kuruma DNA — Content platform"]
+        KO["🟢 Kokaji Detective Office — Business"]
+        EL["🧪 E.L.I.N.A. — Case navigation"]
 
         HJ --> KD
-        ST --> KD
+        ST <--> KD
         KD --> KO
         KO --> EL
     end
 
-    subgraph X[Separate branches]
-        direction TB
-        MI[🧪 MineSIer<br/>programmable systems]
-        SK[🧪 SKALE<br/>knowledge systems]
-        CV[🧪 660cc V6<br/>engine design / long-term build]
+    subgraph X["Separate branches"]
+        direction LR
+        MI["🧪 MineSIer — Programmable systems"]
+        SK["🧪 SKALE — Knowledge systems"]
+        CV["🧪 660cc V6 — Engine design"]
     end
 
-    subgraph T[Small tools / one-offs]
-        CE[🧪 Costco Export<br/>shop workflow tool]
-        KG[❄️ kagu.monster<br/>furniture media]
+    subgraph T["Small tools / one-offs"]
+        direction LR
+        CE["🧪 Costco Export — Shop workflow"]
+        KG["❄️ kagu.monster — Furniture media"]
     end
 ```
 
-この系統では、ほおじろ通信が一番古いです。SutututuでWebサービスの設計や実装をかなりやって、その両方で得たものがKDNAに入っています。KKJDはさらにその延長線上で、E.L.I.N.A.はKKJDの中から生えた実験です。MineSIer、SKALE、660cc V6はほぼ別世界です。
+この系統では、ほおじろ通信が一番古いです。そこで得たメディア運営の経験と、Sutututuで積み上げたWeb・モバイル開発の経験がKDNAにつながっています。現在は**Sutututuを主力に、KDNAとプロダクト設計・集客の知見を行き来させながら育てています。** KKJDはその延長線上にあり、E.L.I.N.A.はKKJDの中から生えた実験です。MineSIer、SKALE、660cc V6はほぼ別世界です。
 
 <details><summary>English</summary><br>
-Hojiro is the oldest project in the main line. Sutututu added a lot of hands-on web-service and backend work, and Kuruma DNA grew out of both. Kokaji Detective Office continues that line, with E.L.I.N.A. branching from it. MineSIer, SKALE, and the 660 cc V6 idea live in almost entirely different worlds.
+Hojiro is the oldest project in the main line. Its media experience and Sutututu's web and mobile development experience both feed into Kuruma DNA. **Sutututu is now my main focus, with product and acquisition lessons flowing both ways between it and Kuruma DNA.** Kokaji Detective Office continues that line, with E.L.I.N.A. branching from it. MineSIer, SKALE, and the 660 cc V6 idea live in almost entirely different worlds.
 </details>
 
 ## 🛠 技術・関心領域 / Tech & Interests
 
 | Area | Technologies / Topics |
 | --- | --- |
+| Product & Growth | Product Strategy, UX/UI, Retention, Acquisition, SEO, Analytics |
 | Web | TypeScript, React, Next.js, WordPress |
-| Mobile | Expo, React Native, Firebase |
+| Mobile | Expo, React Native, Firebase, GPS / Location |
 | Backend & Data | Go, Node.js, PostgreSQL, MySQL |
 | Systems | Java, Docker, Linux, Virtual Networking |
-| Product | Requirements, Information Architecture, SEO, Analytics, Operations |
 | Experiments | AI Automation, Knowledge Systems, Minecraft Modding, Vehicle Engineering |
 
 技術そのものよりも、**「何を作るために、どう組み合わせるか」**に興味があります。
@@ -231,6 +247,7 @@ I'm less interested in collecting technologies than in figuring out how to combi
 ```text
 $ ./hodzilla status
 role            Product Manager / Software Engineer
+main_project    Sutututu
 project_count   suspiciously high
 scope_creep     detected
 response        creating another repository

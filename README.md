@@ -34,9 +34,7 @@ I also build and publish things that catch my interest, including web media, an 
 
 Web／iOSを公開・運用し、GPSラップ計測、走行記録の保存・共有、ランキングに加え、**v1.1.0「GHOST RACE」**を提供しています。Android対応も実装済みで、公開準備中です。
 
-目指しているのは、**「自分が走っていない間も、自分の記録は戦い続けている」体験**。サーキット走行の頻度を踏まえ、次の走行機会にも使いたくなる比較・競争・継続利用の仕組みを設計しています。App Store広告によるユーザー獲得も始めています。
-
-**ゲーム内経済設計：** アプリ内通貨 **REV** の獲得・消費とテーマ交換を起点に、報酬の供給・消費バランスと走行体験への動機づけを設計。**REV TANK・ガチャ・サーキット／メーカーとのシーズン協賛**は、実際の走行機会を増やすための将来構想として検討しています（未確定・未公開）。
+目指しているのは、**「自分が走っていない間も、自分の記録は戦い続けている」体験**。サーキット走行の頻度を踏まえ、次の走行機会にも使いたくなる比較・競争・継続利用の仕組みを設計しています。App Store広告によるユーザー獲得も始めています。 ゲーム内経済設計では、アプリ内通貨 **REV** の獲得・消費やテーマ交換を通じて、報酬の循環と次の走行への動機づけを考えています。**REV TANK** やガチャ、サーキット・メーカーとのシーズン協賛は、実際の走行機会を増やすための将来構想として検討中です（未確定・未公開）。
 
 **開発状況（2026-10-27）：** アプリ内通貨 **REV**・UIテーマ・通知などを含むv1.1.1はTestFlight配布済み。Androidは実機検証・配布準備の段階です。
 
@@ -51,9 +49,7 @@ My main project: a motorsport app that turns real circuit driving into **recorde
 
 The web service and iOS app are live, with GPS lap timing, saved and shared driving records, rankings, and **v1.1.0 “GHOST RACE.”** Android support has also been implemented and is being prepared for release.
 
-The product direction is to make each driver's records stay meaningful between track days: **your records keep competing even when you're not driving.** Current work focuses on meaningful comparison, returning for the next driving session, and user acquisition through App Store advertising.
-
-**In-game economy design:** Designing REV earning and spending, theme unlocks, and the balance between rewards and real track participation. **REV TANK, gacha, and circuit / manufacturer-sponsored seasons** are exploratory concepts, not confirmed or publicly released features.
+The product direction is to make each driver's records stay meaningful between track days: **your records keep competing even when you're not driving.** Current work focuses on meaningful comparison, returning for the next driving session, and user acquisition through App Store advertising. I also design the in-game economy around earning and spending REV, unlocking UI themes, and connecting rewards to real track participation. **REV TANK**, gacha, and circuit- or manufacturer-sponsored seasons are exploratory concepts, not confirmed or publicly released features.
 
 **Status as of 2026-10-27:** v1.1.1, including the **REV** in-app currency, UI themes, and notifications, has been distributed through TestFlight. Android is awaiting physical-device validation and distribution.
 

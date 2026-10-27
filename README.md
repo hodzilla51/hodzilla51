@@ -9,7 +9,7 @@
 **Product Manager / Software Engineer**
 
 現在の主力は、実車のサーキット走行を **計測 → 記録 → 比較 → 挑戦 → 成長** につなげるモータースポーツアプリ **[Sutututu](https://sutututu.net/)**。  
-企画・UX/UIデザイン・Web／モバイル開発・リリース・継続利用の設計・ユーザー獲得まで、一人で進めています。
+企画・UX/UIデザイン・Web／モバイル開発・リリース・**ゲーム内経済設計**・継続利用の設計・ユーザー獲得まで、一人で進めています。
 
 ほかにもWebメディア、調査事業、Minecraft内のコンピュータなど、気になったものを作って公開しています。実際の反応を見ながら、続けるもの、育てるものを選んでいます。
 
@@ -18,7 +18,7 @@
 <br>
 
 My main project is **[Sutututu](https://sutututu.net/)**, a motorsport app connecting real circuit driving with **timing, records, comparison, new challenges, and progress**.  
-I work across product planning, UX/UI design, web and mobile development, releases, retention, and user acquisition as a solo builder.
+I work across product planning, UX/UI design, web and mobile development, releases, **in-game economy design**, retention, and user acquisition as a solo builder.
 
 I also build and publish things that catch my interest, including web media, an investigation business, and programmable computers inside Minecraft. What people actually use helps me decide what to keep developing.
 
@@ -36,9 +36,11 @@ Web／iOSを公開・運用し、GPSラップ計測、走行記録の保存・�
 
 目指しているのは、**「自分が走っていない間も、自分の記録は戦い続けている」体験**。サーキット走行の頻度を踏まえ、次の走行機会にも使いたくなる比較・競争・継続利用の仕組みを設計しています。App Store広告によるユーザー獲得も始めています。
 
+**ゲーム内経済設計：** アプリ内通貨 **REV** の獲得・消費とテーマ交換を起点に、報酬の供給・消費バランスと走行体験への動機づけを設計。**REV TANK・ガチャ・サーキット／メーカーとのシーズン協賛**は、実際の走行機会を増やすための将来構想として検討しています（未確定・未公開）。
+
 **開発状況（2026-10-27）：** アプリ内通貨 **REV**・UIテーマ・通知などを含むv1.1.1はTestFlight配布済み。Androidは実機検証・配布準備の段階です。
 
-**Role:** Product Strategy / UX & UI / Development / Retention / Acquisition  
+**Role:** Product Strategy / UX & UI / Development / In-game Economy Design / Retention / Acquisition  
 **Tech:** Expo / React Native / TypeScript / Next.js / Node.js / PostgreSQL / Firebase
 
 [公式サイト](https://sutututu.net/) · [App Store](https://apps.apple.com/jp/app/6743934576) · [取り組みと初期実装の資料](https://github.com/hodzilla51/portfolio)
@@ -50,6 +52,8 @@ My main project: a motorsport app that turns real circuit driving into **recorde
 The web service and iOS app are live, with GPS lap timing, saved and shared driving records, rankings, and **v1.1.0 “GHOST RACE.”** Android support has also been implemented and is being prepared for release.
 
 The product direction is to make each driver's records stay meaningful between track days: **your records keep competing even when you're not driving.** Current work focuses on meaningful comparison, returning for the next driving session, and user acquisition through App Store advertising.
+
+**In-game economy design:** Designing REV earning and spending, theme unlocks, and the balance between rewards and real track participation. **REV TANK, gacha, and circuit / manufacturer-sponsored seasons** are exploratory concepts, not confirmed or publicly released features.
 
 **Status as of 2026-10-27:** v1.1.1, including the **REV** in-app currency, UI themes, and notifications, has been distributed through TestFlight. Android is awaiting physical-device validation and distribution.
 
@@ -227,7 +231,7 @@ Hojiro is the oldest project in the main line. Its media experience and Sutututu
 
 | Area | Technologies / Topics |
 | --- | --- |
-| Product & Growth | Product Strategy, UX/UI, Retention, Acquisition, SEO, Analytics |
+| Product & Growth | Product Strategy, UX/UI, In-game Economy Design, Retention, Acquisition, SEO, Analytics |
 | Web | TypeScript, React, Next.js, WordPress |
 | Mobile | Expo, React Native, Firebase, GPS / Location |
 | Backend & Data | Go, Node.js, PostgreSQL, MySQL |
